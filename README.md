@@ -52,7 +52,8 @@ Whether these projects can, given the level of sophistication of their architect
 “Programming is not the only job skill” (Bayzick et al., 2013). Arguably a primary consideration for introductory programming is teaching programming and creating good software engineering colleagues out of students.
 
 “Head down” work constitutes the core of modern software engineering, but for the time-in-IDE (or terminal) to contribute to the forward movement of a project, it has to be supported by many non-programming tasks. Among these, current research cites the following as important: integrating multiple international viewpoints in terms of language and culture outside of the classroom, lab, or office (Achuthan, Ramesh, Punnekkat, Raman, 2014); the way in which technical expressions of mathematics and logic can help bridge these international divisions (Yang, 2014); participation with non-technical (ie. design/art/business oriented) peers on an equal footing centered on mutual respect and mutual reliance (Romero et al., 2014); The importance of inclusion, by focusing on non-gendered, non-violent, socially conscious media, particularly as it affects the participation of demographics that are typically underrepresented in computer science (Bayzick et al., 2013). This last issue is called out specifically in the case study below.
-Instructor time and expertise are a limited resource
+
+### Instructor time and expertise are a limited resource
 
 Computer Assisted Instruction is emerging as a theme in teaching technical subjects like Math (Yang, 2014). Yang suggests that automated evaluation is one of the tools that could be used to scale up science education, and argues courseware, rather than the teacher figure, should “dominate” the educational experience. Certainly there is a tradition in machine verified grading in computer science. However, experience with automatically evaluated schemes for grading graphics assignments have been unsatisfying, with grading bugs emerging around screen pixel density and browser zoom level during one MOOC graphics class. Perhaps this could be an area for future research.
 
@@ -60,7 +61,7 @@ In terms of the fast moving commercial ecosystem it is relevant to consider port
 
 The focus of recent pedagogy also overwhelmingly reflects a transition away from algorithms and bare metal implementation, to integration and application development. This represents a focus on en-vogue technology, rather than bare-metal computer science. This magnifies the resource requirements of becoming expert in, and teaching a diverse array of high level toolkits.
 
-The Syntax of a Student’s First Language is their Native Syntax
+### The Syntax of a Student’s First Language is their Native Syntax
 
 Blank pointed at a key issue in systems for teaching beginner computer science, namely the phenomenon that as a beginner, one is tied closely to the first language used (Blank, Kay, Marshall, O’Hara, Russo, 2012). While this theme does not recur in other writing reviewed, it seems important to carefully consider not only the relevance (within the current technological zeitgeist) of a first language, but also its suitability as a foundation for informing future studies. One might ask the question whether learning a compiled language with strong typing and a C-like syntax is a better foundation than learning a forgiving interpreted language. (eg: Learning Java informs JavaScript, C, C++, Perl, and Python development, and is relevant with respect to the large deployed base of Android devices, but is unforgiving in terms of the type system. On the other hand Perl and Python are forgiving, might inform other dynamic languages like JavaScript, but – particularly in the case of Perl, are no longer relevant with respect to the technological zeitgeist, and don’t inform programming in a statically typed, compiled language.)
 
@@ -125,7 +126,7 @@ The root cause of this is likely JavaScript itself, with a tradition of ‘scrip
 ![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/5.png)
 ![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/6.png)
 ![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/7.png)
-![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/8.png)
+
 
 
 # REFERENCES
