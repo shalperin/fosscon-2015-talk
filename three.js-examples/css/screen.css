@@ -1,0 +1,26 @@
+html, body { width:100%; height:100%;  }
+
+
+div#viewport { width:800px; height:500px;}
+div#controls {
+    margin-bottom:20px;
+}
+div#controls div {
+    margin-bottom:5px;
+}
+div#controls a {
+    margin-right:5px;
+    color:blue;
+}
+div#controls:visited {
+    color:blue;
+}
+div.toc {
+    float:left;
+    border-right:solid #DDD 1px;
+    padding:10px;
+}
+div.toc:last-child {
+    border-right:none
+}
+

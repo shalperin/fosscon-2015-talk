@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/screen.css">
+    </head>
+    <body>
+        <h1>CISD 792 Winter 2015 - Sam Halperin</h1>
+
+        <div id="controls">
+            <div>
+                <b>ass 1:</b>
+                {% for e in ass1 %}
+                <a href="{{e}}.html">{{e}}</a>
+                {% endfor %}
+            </div>
+            <div>
+                <b>ass 2:</b>
+                {% for e in ass2 %}
+                <a href="{{e}}.html">{{e}}</a>
+                {% endfor %}
+            </div>
+            <div>
+                <b>ass 3:</b>
+                {% for e in ass3 %}
+                <a href="{{e}}.html">{{e}}</a>
+                {% endfor %}
+            </div>
+            <div>
+                <b>ass 4:</b>
+                {% for e in ass4 %}
+                <a href="{{e}}.html">{{e}}</a>
+                {% endfor %}
+            </div>
+            <div>
+                <b>extra:</b>
+                {% for e in extra %}
+                <a href="{{e}}.html">{{e}}</a>
+                {% endfor %}
+            </div>
+        </div>
+
+        <h2>{{ ex }}</h2>
+        <div id="viewport"></div>
+
+        <!-- Third party scripts -->
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/vendor/underscore-min.js"></script>
+        <script src="js/vendor/three.min.js"></script>
+        <script src="js/vendor/three.js/examples/js/controls/OrbitControls.js"></script>
+        <script src="js/vendor/three.js/examples/js/controls/FlyControls.js"></script>
+        <script src="js/vendor/three.js/examples/js/libs/dat.gui.min.js"></script>
+        <script src="js/vendor/RainbowVis-JS/rainbowvis.js"></script>
+
+        <!-- All of the hard work is done in QU -->
+        <script src="js/QU/QU.js"></script>
+        <script src="js/QU/math/Math.js"></script>
+        <script src="js/QU/core/GameObject.js"></script>
+        <script src="js/QU/objects/OpenBox.js"></script>
+        <script src="js/QU/objects/RegularPolygon.js"></script>
+        <script src="js/QU/objects/Starburst.js"></script>
+        <script src="js/QU/objects/RuledCylinder.js"></script>
+        <script src="js/QU/objects/Pyramid.js"></script>
+        <script src="js/QU/objects/Stairs.js"></script>
+        <script src="js/QU/objects/Cylinder.js"></script>
+        <script src="js/QU/objects/SegmentedCylinder.js"></script>
+        <script src="js/QU/objects/KnottedCylinder.js"></script>
+        <script src="js/QU/objects/Torus.js"></script>
+        <script src="js/QU/objects/CubeMatrix.js"></script>
+        <script src="js/QU/objects/Ziggurat.js"></script>
+        <script src="js/QU/objects/Helix.js"></script>
+
+
+
+
+        <!-- Scaffolding for the demos -->
+        <script src="js/CISD792/CISD792.js"></script>
+        <script src="js/CISD792/SimpleDemo.js"></script>
+        <script src="js/CISD792/SimpleDemoFly.js"></script>
+        <script src="js/CISD792/materials.js"></script>
+
+        <!-- The individual demos -->
+        {% for ex in extra %}
+            <script src="js/CISD792/ass-extra/{{ex}}.js"></script>
+        {% endfor %}
+        {% for ex in ass1 %}
+            <script src="js/CISD792/ass1/{{ex}}.js"></script>
+        {% endfor %}
+        {% for ex in ass2 %}
+            <script src="js/CISD792/ass2/{{ex}}.js"></script>
+        {% endfor %}
+        {% for ex in ass3 %}
+            <script src="js/CISD792/ass3/{{ex}}.js"></script>
+        {% endfor %}
+        {% for ex in ass4 %}
+            <script src="js/CISD792/ass4/{{ex}}.js"></script>
+        {% endfor %}
+
+        <!-- Execute the script we are currently looking at -->
+        <script type="text/javascript">
+            CISD792.run{{ex}}({ target: "#viewport" });
+        </script>
+    </body>
+</html>
