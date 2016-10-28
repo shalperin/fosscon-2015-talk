@@ -100,6 +100,8 @@ In either case, due attention should be paid to the process of creating good mai
 
 The root cause of this is likely JavaScript itself, with a tradition of ‘scripting’, a lack of scope/namespace management, and a hard to understand inheritance system that falls outside of classical object orientation being endemic to the technology. The brief code sample below represents an attempt to address these problems.
 
+![]()
+
 # REFERENCES
 
 Achuthan, K., Ramesh, M. V., Punnekkat, S., & Raman, R. (2014). Internationalizing engineering education with phased study programs: India-European experience. Paper presented at the Frontiers in Education Conference (FIE), 2014 IEEE.
