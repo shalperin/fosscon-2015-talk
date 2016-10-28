@@ -1,9 +1,14 @@
-#Computer Graphics as a Context for Learning and Teaching Computer Science
+# Computer Graphics as a Context for Learning and Teaching Computer Science
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/animated-gifs/fosscon.png)
 
 Sam Halperin
-Nova Southeastern University, 
+
+Nova Southeastern University,
+
 College of Engineering and Computing
+
 Fort Lauderdale, Florida, USA
+
 sh1344@nova.edu
 
 
@@ -13,6 +18,8 @@ This discussion covers research on recent computer graphics pedagogy, with a par
 The paper concludes with some reflections on visual media as a tool for learning programming and a section on future research, as well as an appendix that briefly tries to tie some of the themes here to actual code in JavaScript.
 
 Keywords—computer graphics; computer art; pedagogy
+
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/animated-gifs/torus.gif)
 
 ## MAJOR THEMES
 
@@ -31,6 +38,8 @@ It seems that pursuing rigor in software engineering is a lifelong activity base
 The challenge with creating exercises that appeal to ‘wired’ students is that programming for interactivity and animation often requires management of asynchronous, called-back, event-driven, and sometimes multi-threaded code. Often the goal of abstractions created for pedagogical purposes on top of more complex systems is to create a linear, straight-line, programming system out of a more complex one (Bayzik et al., 2013, Necaise 2014).
 
 It is clear from limited experience teaching beginners, and supported by literature (Bayzick et al, 2013) that the concepts that don’t make clear a cause and effect apparent (decorators are a good example of this in Python, as are success/error callbacks to an AJAX function in JavaScript), are more confusing to beginners than others. Many of the reviews studied use simplification as a rationale for their ‘toy’, teaching abstractions (Necaise, 2014; Greenberg et al., 2012; Ilinkin 2014) over some other motivation like presenting code of better quality (as in Bayzick et al., 2013).
+
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/animated-gifs/torus-fly.gif)
 
 ### Commercially/Culturally Relevant Languages and Frameworks Have More Appeal than Obscure Ones
 
@@ -55,8 +64,11 @@ The Syntax of a Student’s First Language is their Native Syntax
 
 Blank pointed at a key issue in systems for teaching beginner computer science, namely the phenomenon that as a beginner, one is tied closely to the first language used (Blank, Kay, Marshall, O’Hara, Russo, 2012). While this theme does not recur in other writing reviewed, it seems important to carefully consider not only the relevance (within the current technological zeitgeist) of a first language, but also its suitability as a foundation for informing future studies. One might ask the question whether learning a compiled language with strong typing and a C-like syntax is a better foundation than learning a forgiving interpreted language. (eg: Learning Java informs JavaScript, C, C++, Perl, and Python development, and is relevant with respect to the large deployed base of Android devices, but is unforgiving in terms of the type system. On the other hand Perl and Python are forgiving, might inform other dynamic languages like JavaScript, but – particularly in the case of Perl, are no longer relevant with respect to the technological zeitgeist, and don’t inform programming in a statically typed, compiled language.)
 
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/animated-gifs/cubematrix.gif)
+
+
 ## CASE STUDIES
-###Case Study #1, Code Reading and other Critical Skills for Engineering
+### Case Study #1, Code Reading and other Critical Skills for Engineering
 
 In the case study by Bayzick et. al., the emphasis is on learning good coding practice by reading high quality, well documented code. This stems from teaching to the ‘nothing from scratch’ philosophy that they identify.
 
@@ -76,6 +88,9 @@ LOC metrics are the source of a long standing argument in the software engineeri
 
 My critique of Romero’s study, in some sense echoing the sentiments of Wei & Du (2013): Though not applied specifically to Romero’s work, their sentiment applied to this case study is that the emphasis on public performance at once emphasizes wrapped, closed, complete projects, but neglects to inform us about the technical integrity of the knowledge gained in the process (ie through LOC). At some point though one must acknowledge that this trade off is probably very appropriate to a class at this level, and might create, through early satisfying visual results, a passionate commitment to going back and learning the low level math and science at a later point.
 
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/animated-gifs/zig.gif)
+
+
 ### Case Study #3: Low-level, implementation-driven insights into data structures and algorithms.
 While the emphasis in Romero’s study is on public performance, the emphasis in a study done by Shesh (2013) is on low-level insights into the workings of components in a computer graphics application. For example, Shesh’s students gain first-person insights into n-ary trees and their traversal by implementing a scene graph and ray-tracing engine.
 Shesh acknowledges, as did the previous studies, that enrollment and engagement are important factors in structuring a computer graphics course at this level, but seems to make the tradeoff between rigor and satisfaction in favor of rigor. Shesh notes that in order to provide students with low-level experience of data structures in graphics, it was necessary to provide significant completed code to students. This theme is taken up briefly in the appendix.
@@ -90,7 +105,10 @@ For an implementation-level example: sorting, a typical first year CS topic, can
 
 Within the context of a front-end development course, or even an introductory programming course focused on back-end development, a short module that ties in computer graphics could be a valuable add-on. It might serve to reach the visually oriented students described above, or speak better to interdisciplinary students without a formal math background.
 
-##APPENDIX 1. LITERATE PROGRAMMING EXAMPLE ON SIMPLIFYING BOILERPLATE IN A JAVASCRIPT GRAPHICS LIBRARY FOR TEACHING PURPOSES
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/animated-gifs/color-interp.gif)
+
+
+## APPENDIX 1. LITERATE PROGRAMMING EXAMPLE ON SIMPLIFYING BOILERPLATE IN A JAVASCRIPT GRAPHICS LIBRARY FOR TEACHING PURPOSES
 
 Three.js, a high level JavaScript graphics library is promising in its capacity to teach both good software engineering, and computer graphics. In it’s role as a context for teaching programming, it positions students to become competent at web applications engineering, a highly relevant mode in today’s marketplace.
 
@@ -100,7 +118,15 @@ In either case, due attention should be paid to the process of creating good mai
 
 The root cause of this is likely JavaScript itself, with a tradition of ‘scripting’, a lack of scope/namespace management, and a hard to understand inheritance system that falls outside of classical object orientation being endemic to the technology. The brief code sample below represents an attempt to address these problems.
 
-![]()
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/1.png)
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/2.png)
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/3.png)
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/4.png)
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/5.png)
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/6.png)
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/7.png)
+![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/literate-code/8.png)
+
 
 # REFERENCES
 
