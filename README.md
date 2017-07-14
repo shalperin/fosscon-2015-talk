@@ -1,16 +1,9 @@
+[![DOI](https://zenodo.org/badge/72209418.svg)](https://zenodo.org/badge/latestdoi/72209418)
+
 # Computer Graphics as a Context for Learning and Teaching Computer Science
 ![](https://raw.githubusercontent.com/shalperin/fosscon-2015-talk/master/img/animated-gifs/fosscon.png)
 
-Sam Halperin
-
-Nova Southeastern University,
-
-College of Engineering and Computing
-
-Fort Lauderdale, Florida, USA
-
-sh1344@nova.edu
-
+by Sam Halperin 
 
 ## Abstract
 This discussion covers research on recent computer graphics pedagogy, with a particular eye towards major themes and implementation level technologies. For example, one theme that recurs throughout the research is the need to strike a balance between engaging beginning students to continue studying computer science, and the need to provide a foundation rooted in rigorous data structures and algorithms. A second theme that recurs is the need to abstract away the complexity of systems intended for engineering (Android SDK, OpenGL), in order to use them for teaching purposes. Presented as well, are case studies from the literature that implement these and other themes.
